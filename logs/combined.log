@@ -4,3 +4,14 @@
 {"level":"info","message":"::1 - - [03/Nov/2026:11:32:17 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 106 \"-\" \"HTTPie\"","service":"user-service","timestamp":"2026-11-03T11:32:17.002Z"}
 {"level":"info","message":"::1 - - [03/Nov/2026:12:12:57 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 112 \"-\" \"HTTPie\"","service":"user-service","timestamp":"2026-11-03T12:12:57.573Z"}
 {"level":"info","message":"::1 - - [03/Nov/2026:12:13:18 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 37 \"-\" \"HTTPie\"","service":"user-service","timestamp":"2026-11-03T12:13:18.234Z"}
+{"level":"info","message":"::1 - - [03/Nov/2026:14:25:20 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"HTTPie\"","service":"user-service","timestamp":"2026-11-03T14:25:20.341Z"}
+{"level":"info","message":"::1 - - [03/Nov/2026:14:26:22 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"HTTPie\"","service":"user-service","timestamp":"2026-11-03T14:26:22.812Z"}
+{"level":"info","message":"::1 - - [03/Nov/2026:14:26:23 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"HTTPie\"","service":"user-service","timestamp":"2026-11-03T14:26:23.290Z"}
+{"level":"info","message":"::1 - - [03/Nov/2026:14:26:23 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"HTTPie\"","service":"user-service","timestamp":"2026-11-03T14:26:23.580Z"}
+{"level":"info","message":"::1 - - [03/Nov/2026:14:26:23 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"HTTPie\"","service":"user-service","timestamp":"2026-11-03T14:26:23.907Z"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","method":"GET","path":"/health","service":"user-service","timestamp":"2026-11-03T14:26:24.220Z","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [03/Nov/2026:14:26:24 +0000] \"GET /health HTTP/1.1\" 429 89 \"-\" \"HTTPie\"","service":"user-service","timestamp":"2026-11-03T14:26:24.222Z"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","method":"GET","path":"/health","service":"user-service","timestamp":"2026-11-03T14:26:24.537Z","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [03/Nov/2026:14:26:24 +0000] \"GET /health HTTP/1.1\" 429 89 \"-\" \"HTTPie\"","service":"user-service","timestamp":"2026-11-03T14:26:24.539Z"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","method":"GET","path":"/health","service":"user-service","timestamp":"2026-11-03T14:26:27.415Z","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [03/Nov/2026:14:26:27 +0000] \"GET /health HTTP/1.1\" 429 89 \"-\" \"HTTPie\"","service":"user-service","timestamp":"2026-11-03T14:26:27.419Z"}
